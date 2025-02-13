@@ -12,6 +12,6 @@ EXPOSE 3000
 
 ENTRYPOINT ["npm", "start"]
 
-CMD ["HI "]
+
 
 
