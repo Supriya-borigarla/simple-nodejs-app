@@ -1,9 +1,17 @@
 FROM node
+
 WORKDIR /app
 
 COPY . .
-EXPOSE 3000
 
 COPY package*.json ./
 
-ENTRYPOINT start npm
+RUN npm install
+
+EXPOSE 3000
+
+ENTRYPOINT ["npm", "start"]
+
+CMD ["HI "]
+
+
