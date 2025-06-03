@@ -1,4 +1,4 @@
-FROM node
+FROM bitnami/node:latest
 
 WORKDIR /app
 
